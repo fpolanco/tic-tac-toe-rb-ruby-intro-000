@@ -93,6 +93,7 @@ def won?(board)
   #  false
   if position_taken?(board,win_combination[0]) && board[win_combination[0]] == board[win_combination[1]] && board[win_combination[1]] == board[win_combination[2]]
    return win_combination
+  end
  end
  false
 end
