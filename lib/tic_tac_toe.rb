@@ -116,7 +116,7 @@ end
 
 def play(board)
   display_board(board)
-  until over?(board)  do turn(board)
+  turn(board) until over?(board)
   end
     break if draw?(board)
 if won?(board)
