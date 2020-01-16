@@ -127,7 +127,7 @@ end
 
 def play(board)
   display_board(board)
-  until over?(board) 
+  until over?(board)
   turn(board)
   end
 end
