@@ -118,9 +118,8 @@ def play(board)
   display_board(board)
   turn(board) until over?(board)
 if won?(board)
-  binding.pry
     puts "Congratulations #{winner(board)}!"
-  elsif draw?(board)
-    puts "Cat's Game!"
+  # elsif draw?(board)
+  #   puts "Cat's Game!"
   end
 end
