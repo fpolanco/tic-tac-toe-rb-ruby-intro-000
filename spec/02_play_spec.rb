@@ -61,7 +61,7 @@ describe './lib/tic_tac_toe.rb' do
     end
 
     it 'checks if the game is draw after every turn' do
-      binding.binding.pry
+      binding.pry
       board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       allow($stdout).to receive(:puts)
       allow(self).to receive(:gets).and_return("1", "2", "3")
